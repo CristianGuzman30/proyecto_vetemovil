@@ -22,6 +22,8 @@
     <string name="EtvConfirmCon">INGRESE LA CONTRASEÑA NUEVAMENTE</string>
     <string name="BtnRestablecer">Restablecer</string>
     <string name="BtnVolver">Volver</string>
-
+    <string name="TxtCitas">CITAS PROGRAMADAS</string>
+    <string name="TxtVeterinaria">VETERINARIA</string>
+    <string name="TxtPerfil">PERFIL</string>
 
 </resources>
