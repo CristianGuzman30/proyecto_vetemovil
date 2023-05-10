@@ -72,8 +72,8 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="170dp"
-        android:layout_height="145dp"
+        android:layout_width="259dp"
+        android:layout_height="570dp"
         app:srcCompat="@drawable/imagenDocumentos"
         tools:layout_editor_absoluteX="120dp"
         tools:layout_editor_absoluteY="116dp" />
