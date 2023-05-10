@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">VETEMOVIL</string>
+    <string name="Txttitulo">VETEMOVIL</string>
+    <string name="Txtsubtitulo">¡TU MASCOTA ES IGUAL DE
+        IMPORTANTE PARA NOSOTROS!</string>
+    <string name="TxtInSesion">Iniciar sesión</string>
+    <string name="EtvUsuario">USUARIO:</string>
+    <string name="EtvContraseña">CONTRASEÑA:</string>
+    <string name="BtnIniciarSesion">iniciar sesión</string>
+    <string name="BtnOlvContraseña">¿olvidaste la contraseña?</string>
+    <string name="BtnRegistrarse">¡Si no tienes cuenta podrás
+        registrarte aquí!</string>
+    <string name="EtvPrimNombre">PRIMER NOMBRE</string>
+    <string name="EtvSegNombre">SEGUNDO NOMBRE</string>
+    <string name="EtvNomUsuario">NOMBRE DE USUARIO</string>
+    <string name="EtvEmail">CORREO ELECTRONICO</string>
+    <string name="EtvContrasena">CONTRASEÑA</string>
+    <string name="BtnTerminosYCon">ACEPTAR TERMINOS Y CONDICIONES</string>
+    <string name="BtnRegistrar">REGISTRAR</string>
+    <string name="TxtResContraseña">RESTABLECER CONTRASEÑA</string>
+    <string name="EtvNuevaCon">NUEVA CONTRASEÑA</string>
+    <string name="EtvConfirmCon">INGRESE LA CONTRASEÑA NUEVAMENTE</string>
+    <string name="BtnRestablecer">Restablecer</string>
+    <string name="BtnVolver">Volver</string>
+
+
+</resources>
