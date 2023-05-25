@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paleta_2"
+    tools:context=".registromascota">
+
+    <Button
+        android:id="@+id/button13"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="185dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/amaranth"
+        android:text="@string/BtnRegistrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="289dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:text="@string/BtnTerminosYCon"
+        android:textAlignment="center"
+        android:translationY="580dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
+
+    <EditText
+        android:id="@+id/pesomascota"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="296dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:inputType="textPersonName"
+        android:text="PESO"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/especiemascota"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="416dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:inputType="textPersonName"
+        android:text="ESPECIE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/razamascota"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="356dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:inputType="textPersonName"
+        android:text="RAZA"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/direccionmascota"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="476dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:inputType="textPersonName"
+        android:text="DIRECCION"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nombrepropietario"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="536dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:inputType="textPersonName"
+        android:text="NOMBRE PROPIETARIO"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/nombremascota"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:fontFamily="@font/amaranth"
+        android:inputType="textPersonName"
+        android:text="NOMBRE"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="396dp"
+        android:layout_height="131dp"
+        android:rotation="91"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243"
+        app:srcCompat="@drawable/imagen" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="124dp"
+        android:layout_height="133dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095"
+        app:srcCompat="@drawable/silueta" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paleta_05"
+    tools:context=".mrfirulays">
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="628dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen2" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="628dp"
+        android:translationX="290dp"
+        android:translationY="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen2" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="628dp"
+        android:translationY="630dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen2" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="169dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="616dp"
+        android:text="@string/Txtsubtitulo"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#070707"
+        android:textSize="10sp"
+        android:translationX="120dp"
+        android:translationY="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVETEMOVIL"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvVETEMOVIL6"
+        android:layout_width="204dp"
+        android:layout_height="47dp"
+        android:fontFamily="cursive"
+        android:text="@string/Txttitulo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0A0A"
+        android:textSize="40sp"
+        android:translationX="100dp"
+        android:translationY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU PRINCIPAL"
+        android:translationX="140dp"
+        android:translationY="640dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGENDAR CITA"
+        android:translationX="150dp"
+        android:translationY="540dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Educacion"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        android:translationX="172dp"
+        android:translationY="480dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paseo Canino"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        android:translationX="30dp"
+        android:translationY="480dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Juguetes"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        android:translationX="300dp"
+        android:translationY="480dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MR.FIRULAYS"
+        android:textColor="#101010"
+        android:translationX="165dp"
+        android:translationY="300dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="154dp"
+        android:layout_height="173dp"
+        android:src="@drawable/imagenclinic"
+        android:translationX="130dp"
+        android:translationY="150dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="145dp"
+        android:layout_height="137dp"
+        android:src="@drawable/paseo"
+        android:translationX="10dp"
+        android:translationY="350dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="132dp"
+        android:layout_height="126dp"
+        android:src="@drawable/educacion"
+        android:translationX="140dp"
+        android:translationY="345dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="152dp"
+        android:layout_height="150dp"
+        android:src="@drawable/jueguetes"
+        android:translationX="255dp"
+        android:translationY="360dp" />
+
+</FrameLayout>
+
+
+

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/paleta_05"
+    tools:context=".animalandia">
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="628dp"
+        android:translationY="630dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen2" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="628dp"
+        android:translationX="290dp"
+        android:translationY="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen2" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="120dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="628dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imagen2" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="169dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="616dp"
+        android:text="@string/Txtsubtitulo"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#070707"
+        android:textSize="10sp"
+        android:translationX="120dp"
+        android:translationY="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVETEMOVIL"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvVETEMOVIL4"
+        android:layout_width="204dp"
+        android:layout_height="47dp"
+        android:fontFamily="cursive"
+        android:text="@string/Txttitulo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0A0A"
+        android:textSize="40sp"
+        android:translationX="100dp"
+        android:translationY="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MENU PRINCIPAL"
+        android:translationX="140dp"
+        android:translationY="620dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adoptame"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        android:translationX="30dp"
+        android:translationY="480dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Servicio de aseo"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        android:translationX="140dp"
+        android:translationY="480dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="154dp"
+        android:layout_height="173dp"
+        android:src="@drawable/imagenclinic"
+        android:translationX="130dp"
+        android:translationY="150dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANIMALANDIA"
+        android:textColor="#101010"
+        android:translationX="165dp"
+        android:translationY="300dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="108dp"
+        android:layout_height="133dp"
+        android:src="@drawable/perros"
+        android:translationX="10dp"
+        android:translationY="350dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adoptame"
+        android:textColor="#0B0A0A"
+        android:textSize="16sp"
+        android:translationX="300dp"
+        android:translationY="480dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="173dp"
+        android:layout_height="108dp"
+        android:src="@drawable/banandose"
+        android:translationX="110dp"
+        android:translationY="360dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="141dp"
+        android:layout_height="114dp"
+        android:src="@drawable/veterinaria"
+        android:translationX="265dp"
+        android:translationY="360dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGENDAR CITA"
+        android:translationX="150dp"
+        android:translationY="520dp" />
+</FrameLayout>
+
+

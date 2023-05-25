@@ -75,43 +75,43 @@
         android:layout_width="156dp"
         android:layout_height="149dp"
         android:layout_marginTop="20dp"
-        android:background=""
-        android:scaleType="centerInside"
         android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:contentDescription="Boton para ir a las citas programadas"
+        android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/imagenDocumentos"
-        android:contentDescription="Boton para ir a las citas programadas"/>
+        app:srcCompat="@drawable/imagendocumentos" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="155dp"
         android:layout_height="150dp"
         android:layout_marginTop="36dp"
-        android:background=""
-        android:scaleType="centerInside"
         android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:contentDescription="Boton para ir a las clinicas veterinarias de la plataforma"
+        android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@drawable/imagenClinic"
-        android:contentDescription="Boton para ir a las clinicas veterinarias de la plataforma"/>
+        app:srcCompat="@drawable/imagenclinic" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="143dp"
         android:layout_height="140dp"
         android:layout_marginTop="40dp"
-        android:background=""
-        android:scaleType="centerInside"
         android:adjustViewBounds="true"
+        android:background="#00FFFFFF"
+        android:contentDescription="Boton para ir a al perfil de la persona"
+        android:scaleType="centerInside"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/imagenPersona"
-        android:contentDescription="Boton para ir a al perfil de la persona"/>
+        app:srcCompat="@drawable/imagenpersona" />
 
     <TextView
         android:id="@+id/textView7"
