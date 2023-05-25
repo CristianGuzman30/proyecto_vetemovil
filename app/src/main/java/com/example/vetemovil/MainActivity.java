@@ -9,22 +9,37 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button boton;
+    Button botonInicioSesion;
+    Button registrarUsuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        boton = findViewById(R.id.button);
+        botonInicioSesion = findViewById(R.id.button);
+        registrarUsuario = findViewById(R.id.button3);
 
-        boton.setOnClickListener(new View.OnClickListener() {
+        botonInicioSesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 pruebas();
             }
         });
 
+        registrarUsuario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                activityRegistro();
+            }
+        });
+
+    }
+
+    public void activityRegistro(){
+        Intent registro = new Intent(this, pagina2.class);
+        startActivity(registro);
+        finish();
     }
 
     public void pruebas(){
