@@ -10,7 +10,7 @@
     <string name="BtnOlvContraseña">¿olvidaste la contraseña?</string>
     <string name="BtnRegistrarse">¡Si no tienes cuenta podrás
         registrarte aquí!</string>
-    <string name="EtvPrimNombre">PRIMER NOMBRE</string>
+    <string name="EtvPrimNombre">TELEFONO</string>
     <string name="EtvSegNombre">SEGUNDO NOMBRE</string>
     <string name="EtvNomUsuario">NOMBRE DE USUARIO</string>
     <string name="EtvEmail">CORREO ELECTRONICO</string>

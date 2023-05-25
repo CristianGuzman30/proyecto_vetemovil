@@ -65,17 +65,17 @@
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="300dp"
         android:ems="10"
         android:fontFamily="@font/amaranth"
         android:inputType="textPersonName"
-        android:text="@string/EtvSegNombre"
+        android:text="@string/EtvNomUsuario"
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
@@ -94,30 +94,14 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editTextTextPersonName4"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="12dp"
         android:ems="10"
         android:fontFamily="@font/amaranth"
         android:inputType="textPersonName"
         android:text="@string/EtvPrimNombre"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:fontFamily="@font/amaranth"
-        android:inputType="textPersonName"
-        android:text="@string/EtvNomUsuario"
         android:textAlignment="center"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
