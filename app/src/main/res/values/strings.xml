@@ -22,10 +22,12 @@
     <string name="EtvConfirmCon">INGRESE LA CONTRASEÑA NUEVAMENTE</string>
     <string name="BtnRestablecer">Restablecer</string>
     <string name="BtnVolver">Volver</string>
-    <string name="TxtCitas">CITAS PROGRAMADAS</string>
+    <string name="TxtCitas">PROGRAMAR CITAS</string>
     <string name="TxtVeterinaria">VETERINARIA</string>
     <string name="TxtPerfil">PERFIL</string>
     <string name="title_activity_main2"></string>
+    <string name="spinner_content_description">Seleccionar opción</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 

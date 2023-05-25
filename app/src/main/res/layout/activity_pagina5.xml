@@ -7,6 +7,39 @@
     android:background="@drawable/paleta_05"
     tools:context=".pagina5">
 
+    <EditText
+        android:id="@+id/fecha3"
+        android:layout_width="259dp"
+        android:layout_height="54dp"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="multiply"
+        android:breakStrategy="simple"
+        android:ems="10"
+        android:hint="Introduce la hora aquí"
+        android:inputType="date"
+        android:textColor="#121111"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.731" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HORA"
+        android:textColor="#121111"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643" />
+
     <Button
         android:id="@+id/inicio"
         android:layout_width="110dp"
@@ -19,90 +52,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.957" />
-
-    <TextView
-        android:id="@+id/nombremascota"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="nombre mascota"
-        android:textColor="#FF0000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="NOMBRE MASCOTA:"
-        android:textColor="#121111"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.775" />
-
-    <TextView
-        android:id="@+id/identidad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="identidad"
-        android:textColor="#FF0000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="IDENTIDAD DEL PROPIETARIO"
-        android:textColor="#121111"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.089"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.656" />
-
-    <TextView
-        android:id="@+id/especialidad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="especialidad"
-        android:textColor="#FF0000"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.045"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="ESPECIALIDAD:"
-        android:textColor="#121111"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.543" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -172,7 +121,7 @@
         android:id="@+id/textView5"
         android:layout_width="281dp"
         android:layout_height="41dp"
-        android:text="CITAS PROGRAMADAS"
+        android:text="PROGRAMAR CITAS"
         android:textAlignment="center"
         android:textColor="#121111"
         android:textSize="20sp"
@@ -216,11 +165,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333" />
 
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="334dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/spinner_content_description"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombreveterinaria"
+        tools:ignore="MissingConstraints" />
+
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VETERINARIA:"
+        android:text="Ubicación"
         android:textColor="#121111"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -234,8 +206,8 @@
         android:id="@+id/nombreveterinaria"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="nombre veterinaria"
-        android:textColor="#FF0000"
+        android:text="Nombre veterinaria"
+        android:textColor="#000DFF"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
