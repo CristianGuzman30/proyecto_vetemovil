@@ -74,7 +74,7 @@
         android:id="@+id/imageButton"
         android:layout_width="156dp"
         android:layout_height="149dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:adjustViewBounds="true"
         android:background="#00FFFFFF"
         android:contentDescription="Boton para ir a las citas programadas"
@@ -83,7 +83,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:srcCompat="@drawable/imagendocumentos" />
+        app:srcCompat="@drawable/documentos" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -97,7 +97,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton"
-        app:srcCompat="@drawable/imagenclinic" />
+        app:srcCompat="@drawable/clinica" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -111,7 +111,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/imagenpersona" />
+        app:srcCompat="@drawable/persona" />
 
     <TextView
         android:id="@+id/textView7"
