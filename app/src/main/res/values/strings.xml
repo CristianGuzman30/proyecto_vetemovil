@@ -25,5 +25,6 @@
     <string name="TxtCitas">CITAS PROGRAMADAS</string>
     <string name="TxtVeterinaria">VETERINARIA</string>
     <string name="TxtPerfil">PERFIL</string>
+    <string name="title_activity_main2" />
 
 </resources>
