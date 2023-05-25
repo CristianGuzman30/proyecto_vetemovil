@@ -190,7 +190,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginBottom="492dp"
         android:adjustViewBounds="true"
-        android:background=""
+        android:background="#00FFFFFF"
         android:contentDescription="Boton para ir a al perfil de la persona"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -198,7 +198,7 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/imagenPersona" />
+        app:srcCompat="@drawable/imagenpersona" />
 
     <TextView
         android:id="@+id/textView31"

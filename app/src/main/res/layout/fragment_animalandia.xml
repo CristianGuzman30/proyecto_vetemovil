@@ -112,7 +112,7 @@
         android:id="@+id/imageView16"
         android:layout_width="154dp"
         android:layout_height="173dp"
-        android:src="@drawable/imagenClinic"
+        android:src="@drawable/imagenclinic"
         android:translationX="130dp"
         android:translationY="150dp" />
 
@@ -147,7 +147,7 @@
         android:id="@+id/imageView18"
         android:layout_width="173dp"
         android:layout_height="108dp"
-        android:src="@drawable/bañandose"
+        android:src="@drawable/banandose"
         android:translationX="110dp"
         android:translationY="360dp" />
 
