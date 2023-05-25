@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paleta_05"
+    android:orientation="vertical"
+    tools:context=".activity_pagina6">
+
+    <TextView
+        android:id="@+id/tvVETEMOVIL7"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:fontFamily="cursive"
+        android:text="@string/Txttitulo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#0B0A0A"
+        android:textSize="40sp"
+        android:translationX="100dp"
+        android:translationY="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="169dp"
+        android:layout_height="34dp"
+        android:text="TU MASCOTA ES IGUAL DE IMPORTANTE PARA NOSOTROS"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="10sp"
+        android:translationX="120dp"
+        android:translationY="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationY="10dp">
+
+        <Button
+            android:id="@+id/mr.firulays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MR.FIRULAYS" />
+
+        <Button
+            android:id="@+id/animalandia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ANIMALANDIA" />
+
+        <Button
+            android:id="@+id/animalitos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ANIMALITOS" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contenedorFragments"
+        android:layout_width="match_parent"
+        android:layout_height="583dp"
+        android:layout_margin="5dp"
+        android:translationY="10dp" />
+
+</LinearLayout>
