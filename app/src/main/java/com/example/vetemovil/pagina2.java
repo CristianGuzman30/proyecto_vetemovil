@@ -1,6 +1,6 @@
 package com.example.vetemovil;
 
-import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,10 +8,16 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.vetemovil.interfaces.UsuarioAPI;
 import com.example.vetemovil.models.Usuario;
 
+import org.mindrot.jbcrypt.BCrypt;
+
 import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
@@ -51,7 +57,7 @@ public class pagina2 extends AppCompatActivity {
                     if(textNombreUsuario.isEmpty() || textTelefono.isEmpty() || textCorreo.isEmpty() || textContrasena.isEmpty()){
                         Toast.makeText(getApplicationContext(), "Todos los campos son requeridos", Toast.LENGTH_SHORT).show();
                     } else {
-
+                        enviarUsuario();
                     }
                 } else {
                     Toast.makeText(getApplicationContext(), "Debes aceptar los términos y condiciones", Toast.LENGTH_SHORT).show();
@@ -61,23 +67,51 @@ public class pagina2 extends AppCompatActivity {
 
     }
 
-    private void enviarUsuario(int numero) {
+    private void enviarUsuario() {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://vetemovil.000webhostapp.com/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
-        UsuarioAPI UsuarioAPI = retrofit.create(UsuarioAPI.class);
+        UsuarioAPI usuarioAPI = retrofit.create(UsuarioAPI.class);
+        String contraseñaEncriptada = generarHash(textContrasena);
+        Usuario usuario = new Usuario();
+        usuario.setNombre(textNombreUsuario);
+        usuario.setTelefono(textTelefono);
+        usuario.setEmail(textCorreo);
+        usuario.setContrasena(contraseñaEncriptada);
 
-        Usuario Usuario = new Usuario();
-        Usuario.setNombre("Jhon");
-        Usuario.setTelefono("312");
-        Usuario.setEmail("Luna");
-        Usuario.setContrasena("Prueba1");
+        Call<Usuario> call = usuarioAPI.enviarUsuario(usuario);
+        call.enqueue(new Callback<Usuario>() {
+            @Override
+            public void onResponse(Call<Usuario> call, Response<Usuario> response) {
+                if (response.isSuccessful()) {
+                    Toast.makeText(getApplicationContext(), "Usuario registrado correctamente", Toast.LENGTH_SHORT).show();
+                    regresarInicioSesion();
+                } else {
+                    Toast.makeText(getApplicationContext(), "Error al registrar el usuario", Toast.LENGTH_SHORT).show();
+                }
+            }
 
-        Call<Usuario> call = UsuarioAPI.enviarUsuario(Usuario);
-
-        // ...
+            @Override
+            public void onFailure(Call<Usuario> call, Throwable t) {
+                Toast.makeText(getApplicationContext(), "Error en la comunicación con la API", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
+
+
+    private String generarHash(String contraseña) {
+        String salt = BCrypt.gensalt();
+        String hash = BCrypt.hashpw(contraseña, salt);
+        return hash;
+    }
+
+    public void regresarInicioSesion(){
+        Intent inicioSesion = new Intent(this, MainActivity.class);
+        startActivity(inicioSesion);
+        finish();
+    }
+
 
 }

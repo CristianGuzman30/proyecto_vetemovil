@@ -52,8 +52,8 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:fontFamily="@font/akaya_telivigala"
+        android:hint="@string/EtvUsuario"
         android:inputType="textPersonName"
-        android:text="@string/EtvUsuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -96,12 +96,13 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:fontFamily="@font/akaya_telivigala"
-        android:inputType="textPersonName"
-        android:text="@string/EtvContraseña"
+        android:hint="@string/EtvContraseña"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
 
     <Button
         android:id="@+id/button2"

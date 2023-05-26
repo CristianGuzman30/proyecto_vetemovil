@@ -10,9 +10,9 @@ import retrofit2.http.Path;
 
 public interface UsuarioAPI {
 
-    @GET("usuario/consultar/{id}")
+    @GET("usuario/consultarUsuario/{id}")
     public Call<Usuario> find(@Path("id") String id);
 
-    @POST("perfil/crear")
+    @POST("usuario/registrar")
     public Call<Usuario> enviarUsuario(@Body Usuario usuario);
 }

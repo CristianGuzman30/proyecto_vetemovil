@@ -28,6 +28,9 @@
             android:name=".activity_pagina6"
             android:exported="false" />
         <activity
+            android:name=".pagina5"
+            android:exported="false" />
+        <activity
             android:name=".pagina4"
             android:exported="false" />
         <activity
